@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Navbarcomp } from "./Header component/Navbar"
+import { Herosection } from "./Header component/Herosection"
+import { AboutSection} from "./Bodysection/About"
+import {Skills} from './Bodysection/Skills';
+import { Experience } from './Bodysection/Experience';
+import { Projects } from './Bodysection/Projects';
+import { Contact } from './Bodysection/Contact';
+import { ToastContainer} from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+import { Footer } from './Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export const App=()=>{
+    return(
+        <div className='w-full h-full flex flex-col'>
+        <Navbarcomp/>
+        <Herosection/>
+        <AboutSection/>
+        <Skills/>
+        <Experience/>        
+        <Projects/>
+        <Contact/>
+        <Footer/>
+        <ToastContainer className='w-1/5'/>
+        </div>
+    )
 }
-
-export default App;

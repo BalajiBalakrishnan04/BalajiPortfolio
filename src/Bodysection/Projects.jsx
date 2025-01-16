@@ -18,7 +18,7 @@ export const Projects = () => {
       technology: "Figma, HTML, CSS, Javascript.",
       description: 'We have developed a static fitness website during my internship focused on fitness tips and workout guidance. The website was designed using figma, HTML, CSS and JavaScript.',
       button: 'Know More',
-      url: 'https:/fitnessproject817.netlify.app',
+      url: 'https://fitnessproject817.netlify.app/',
       code:'https://github.com/BalajiBalakrishnan04/fitness_project'
     },
     {

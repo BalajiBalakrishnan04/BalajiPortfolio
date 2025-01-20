@@ -27,7 +27,8 @@ export const Projects = () => {
       Projname: "Criclog website",
       technology: "Figma, React JS, Node JS, MongoDB",
       description: 'I have developed a cricket website during my internship focused on live matches, scores, comments and cricket news. I am being a team leader in this Project. I have managed the team members to complete the work within the given time of duration. The website was developed using figma, React js, Node js and MongoDB.',
-      button: 'Know More'
+      button: 'Know More',
+      code:'https://github.com/orgs/criclog/repositories'
     }
   ];
 

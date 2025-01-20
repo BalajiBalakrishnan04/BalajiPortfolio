@@ -16,7 +16,7 @@ export const Projects = () => {
       img: fitprojimg1,
       Projname: "Fitness website (static website)",
       technology: "Figma, HTML, CSS, Javascript.",
-      description: 'We have developed a static fitness website during my internship focused on fitness tips and workout guidance. The website was designed using figma, HTML, CSS and JavaScript.',
+      description: 'I have developed a static fitness website during my internship focused on fitness tips and workout guidance. I am being a team leader in this Project. I have managed the team members to complete the work within the given time of duration. The website was developed using figma, HTML, CSS and JavaScript.',
       button: 'Know More',
       url: 'https://fitnessproject817.netlify.app/',
       code:'https://github.com/BalajiBalakrishnan04/fitness_project'
@@ -26,7 +26,7 @@ export const Projects = () => {
       img: fitprojimg2,
       Projname: "Criclog website",
       technology: "Figma, React JS, Node JS, MongoDB",
-      description: 'We have developed a cricket website during my internship focused on live matches, scores, comments and cricket news. The website was designed using figma, React js, Node js and MongoDB.',
+      description: 'I have developed a cricket website during my internship focused on live matches, scores, comments and cricket news. I am being a team leader in this Project. I have managed the team members to complete the work within the given time of duration. The website was developed using figma, React js, Node js and MongoDB.',
       button: 'Know More'
     }
   ];

@@ -54,6 +54,7 @@ export const Projects = () => {
           <Projectchild key={value.id} data={value} handleProjectClick={handleProjectClick} />
         ))}
       </div>
+      
 
       {/* Modal Display */}
       {showModal && selectedProject && (

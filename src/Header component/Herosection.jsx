@@ -44,7 +44,7 @@ export const Herosub=()=>{
      <a href="https://github.com/BalajiBalakrishnan04" target="black"><PiGithubLogoFill className="sm:text-[36px] text-[32px] cursor-pointer text-[#ff4d6d]  border-[2px] border-[#ff4d6d] bg-black p-[4px] rounded-full shadow-[1px_1px_10px_4px_#a4133c] hover:bg-[#ff4d6d] hover:text-black ease-out delay-100" /></a>
      <a href="https://www.linkedin.com/in/balajibalakrishnan04" target="black"><RiLinkedinFill className="sm:text-[36px] text-[32px] cursor-pointer text-[#ff4d6d]  border-[2px] border-[#ff4d6d] bg-black p-[4px] rounded-full shadow-[1px_1px_10px_4px_#a4133c] hover:bg-[#ff4d6d] hover:text-black ease-out delay-100" /></a>
       </div>
-      <a href="https://drive.google.com/file/d/1IAxy_FGy_lAkm7lcGB6gVqwS1bbRM3Cm/view?usp=drive_link" target="blank"><button initial={{x:-150, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:2,delay:1}}   className="px-2 py-1.5 mt-[25px] sm:text-[16px] text-[14px] bg-[black] font-semibold shadow-[1px_1px_15px_5px_#800f2f] border-[2px] border-[#c9184a] rounded-xl text-[#ff4d6d] hover:scale-105 ease-in-out duration-300 cursor-pointer">View My Resume</button></a>
+      <a href="https://drive.google.com/file/d/1a_O1PxkquFnOwy24ToZsvLJB8tNuVNqt/view?usp=drive_link" target="blank"><button initial={{x:-150, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:2,delay:1}}   className="px-2 py-1.5 mt-[25px] sm:text-[16px] text-[14px] bg-[black] font-semibold shadow-[1px_1px_15px_5px_#800f2f] border-[2px] border-[#c9184a] rounded-xl text-[#ff4d6d] hover:scale-105 ease-in-out duration-300 cursor-pointer">View My Resume</button></a>
         </motion.div>
     )
 }

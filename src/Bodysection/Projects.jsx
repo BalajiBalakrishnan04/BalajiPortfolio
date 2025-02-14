@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import fitprojimg1 from "../Assests/project 1.jpg";
 import fitprojimg2 from "../Assests/project 2.jpg";
+import fitprojimg3 from "../Assests/project 3.png";
 import { motion } from "framer-motion";
 import { RxCross2 } from "react-icons/rx";
 
@@ -26,9 +27,19 @@ export const Projects = () => {
       img: fitprojimg2,
       Projname: "Criclog website",
       technology: "Figma, React JS, Node JS, MongoDB",
-      description: 'I have developed a cricket website during my internship focused on live matches, scores, comments and cricket news. I am being a team leader in this Project. I have managed the team members to complete the work within the given time of duration. The website was developed using figma, React js, Node js and MongoDB.',
+      description: 'I have developed a cricket website during my internship focused on live matches, scores, comments and cricket news. I am being a team leader in this Project. I have managed the team members to complete the work within the given time of duration. The website was developed using figma, React js, Node js, expressJS and MongoDB.',
       button: 'Know More',
+      url: 'https://criclog057.web.app/',
       code:'https://github.com/orgs/criclog/repositories'
+    },
+    {
+      id: 3,
+      img: fitprojimg3,
+      Projname: "Plantspark (Plant selling website)",
+      technology: "React JS, Node JS, MongoDB",
+      description: 'I have developed a Plant selling website during my internship focused on selling different categories of plants, allowing users to purchase plants and view their orders. The website was developed using React js, Node js, expressJS and MongoDB. Payment gateway integration was done using PayPal.',
+      button: 'Know More',
+      code:'https://github.com/BalajiBalakrishnan04'
     }
   ];
 
@@ -45,11 +56,11 @@ export const Projects = () => {
   };
 
   return (
-    <div className="project w-full min-h-100vh flex flex-col xl:px-[200px] lg:px-[120px] md:px-[60px] sm:px-[120px] px-[45px] py-[70px] gap-[40px] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#800f2f] to-[#000000] to-95%">
+    <div className="project w-full min-h-100vh flex flex-col xl:px-[100px] lg:px-[80px] md:px-[60px] sm:px-[120px] px-[45px] py-[70px] gap-[40px] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#800f2f] to-[#000000] to-95%">
       <motion.h1 initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: false, amount: 1 }} transition={{ duration: 2, delay: 0.5 }} className='flex justify-center item-center md:text-[32px] sm:text-[28px] text-[24px] font-serif text-[#ff4d6d]'>
         Projects
       </motion.h1>
-      <div className="w-full xl:gap-[50px] gap-[40px] grid md:grid-cols-2 grid-cols-1 justify-center items-center">
+      <div className="w-full xl:gap-[50px] gap-[40px] grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center items-center">
         {projdata.map((value) => (
           <Projectchild key={value.id} data={value} handleProjectClick={handleProjectClick} />
         ))}
@@ -88,7 +99,7 @@ export const Projectchild = ({ data, handleProjectClick }) => {
     <div className="w-full text-[#ff4d6d]">
       <motion.div initial={{ rotateY:15}} animate={{ rotateY:0}} viewport={{once:false, amount:1}} transition={{duration:2,delay:0.5, repeat: Infinity, repeatType: "reverse" }}
        className="bg-[#000000] flex flex-col gap-2 rounded-xl md:text-[14px] sm:text-[13px] text-[11px] shadow-[0px_1px_10px_5px_#a4133c] ">
-        <img src={img} className='w-full md:h-[280px] sm:h-[250px] h-[230px] rounded-lg' />
+        <img src={img} className='w-full md:h-[250px] sm:h-[230px] h-[200px] rounded-lg' />
         <div className='flex flex-col gap-4 sm:px-[20px] px-[10px] py-[10px]'>
           <h2 className='font-semibold'>Project Name : <span className="text-[white] font-normal">{Projname}</span></h2>
           <h2 className='font-semibold'>Technologies Used : <span className="text-[white] font-normal">{technology}</span></h2>
